@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.nbpt.openworlddemo.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="com.nbpt.openworlddemo.ui.game.GameFragment"
+        android:label="@string/title_game"
+        tools:layout="@layout/fragment_game" />
+
+    <fragment
+        android:id="@+id/navigation_ngo"
+        android:name="com.nbpt.openworlddemo.ui.ngo.NgoFragment"
+        android:label="@string/title_ngo"
+        tools:layout="@layout/fragment_ngo" />
+
+    <fragment
+        android:id="@+id/navigation_acc"
+        android:name="com.nbpt.openworlddemo.ui.acc.AccFragment"
+        android:label="@string/title_acc"
+        tools:layout="@layout/fragment_acc" />
+
+</navigation>
